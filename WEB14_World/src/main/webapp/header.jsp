@@ -9,8 +9,7 @@
 <title>Shoes Shop</title>
 
 <script src="script/jquery-3.6.4.js"></script>
-
-<link href="script/script.js" rel="stylesheet">
+<script src="script/script.js"></script>
 <link href="css/world.css" rel="stylesheet">  
 
 </head>
@@ -21,13 +20,13 @@
 			<ul>
 				<c:choose>
 					<c:when test ="${empty loginUser}">
-						<li><a href="world.do?command=loginForm"></a>login</li>
-						<li><a href="world.do?command=joinForm"></a>JOIN</li>
+						<li><a href="world.do?command=loginForm">login</a></li>
+						<li><a href="world.do?command=joinForm">JOIN</a></li>
 					</c:when>
 					<c:otherwise>
 						<li>${loginUser.name}(${loginUser.id})</li>
-						<li><a href="world.do?command=mypage"></a>마이페이지</li>
-						<li><a href="world.do?command=logout"></a>logout</li>
+						<li><a href="world.do?command=mypage">마이페이지</a></li>
+						<li><a href="world.do?command=logout">logout</a></li>
 					</c:otherwise>
 				</c:choose>
 			</ul>
@@ -36,7 +35,7 @@
 		<div id="sub_menu">
 			<div class="logo">
 				<a href="world.do?command=index">
-					<img src="images/mainlogo.png" width="100" height="80">
+					<img src="images/mainlogo.png" width="90" height="65">
 				</a>
 			</div>
 			<div class="category">
@@ -49,4 +48,5 @@
 			</div>
 		</div>	
 		
+			
 
