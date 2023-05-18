@@ -30,6 +30,11 @@
     </div>
 </div>
 
+<div id="mainTodayArea" >
+	<a href="world.do?command=loginForm" target='_blank'>
+ 	<img src="images/clock.png" width="25" height="25" >오늘의 파크 운영시간   10:00~21:00
+	</a>
+</div>
 
 
 

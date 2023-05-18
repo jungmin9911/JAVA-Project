@@ -21,7 +21,7 @@
 				<c:choose>
 					<c:when test ="${empty loginUser}">
 						<li><a href="world.do?command=loginForm">login</a></li>
-						<li><a href="world.do?command=joinForm">JOIN</a></li>
+						<li><a href="world.do?command=contract">JOIN</a></li>
 					</c:when>
 					<c:otherwise>
 						<li>${loginUser.name}(${loginUser.id})</li>
@@ -38,15 +38,18 @@
 					<img src="images/mainlogo.png" width="90" height="65">
 				</a>
 			</div>
+			
 			<div class="category">
-				<ul>	
+				<ul class="category_top_menu">	
 					<li>즐길거리</li>
 					<li>예매</li>
 					<li>이용가이드</li>
 					<li>소통서비스</li>
 				</ul>		
 			</div>
-		</div>	
+		</div>
+</header>
+
 		
 			
 
