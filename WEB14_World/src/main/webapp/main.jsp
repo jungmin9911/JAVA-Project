@@ -23,7 +23,14 @@
 </div>
 
 <div id="mainback">
-	jungmin code
+	<div id="maintitle">재밌고 즐거운 <span style="font-weight:bold;">다양한 어트랙션!</span></div>
+	<div class="tag">
+		<ul>
+			<li>아이와 함께</li>
+			<li>야외에서 신나게</li>
+			<li>실내에서 쾌적하게</li>
+		</ul>
+	</div>
 </div>
 
 
