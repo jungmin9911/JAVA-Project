@@ -10,7 +10,7 @@
 
 <script src="script/jquery-3.6.4.js"></script>
 
-<link href="script/script.js" rel="stylesheet">
+<script src="script/script.js"></script>
 <link href="css/world.css" rel="stylesheet">  
 
 </head>

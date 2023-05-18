@@ -21,8 +21,6 @@ nav#top_menu ul li:hover {color: blue; font-weight: bold;}
 
 
 
-
-
 #main_view{position:relative; width:100%; height:700px; margin:0 auto; border: 1px dashed black; overflow:hidden;}
 #main_imgs{position:absolute; width:480px; height:400px; left:0; top:0; border: 1px dashed red;}
 
@@ -38,10 +36,10 @@ nav#top_menu ul li:hover {color: blue; font-weight: bold;}
 .mainTit{position:relative; font-size:200%; width:1000px; font-weight:bold;height:100px; background-color:white; display: inline-block; margin:0 auto; text-align: center;}
 .mainTxt{position:relative;font-size:150%; width:900px;font-weight:bold; height:100px; background-color:white;  display: inline-block;margin:0 auto;}
 .boxArea{position:relative; width:1000px; height:600px;background-color:white;  display: inline-block;margin:0 auto;}
-.box-tr{position:relative; width:1000px; height:300px; background-color:white; text-align: center; display: inline-block; margin:0 auto; text-overflow: ellipsis;}
-.box-td{position:relative; width:200px; height:300px;  background-color:white; text-align: center; display: inline-block; margin:0 auto;text-overflow: ellipsis;}
-.imggg{position:relative; width:200px; height:130px;  background-color:white; text-align: center; display: inline-block; margin:0 auto;}
-.price1{position:relative; width:200px; height:130px;  background-color:white; text-align: center; display: inline-block; margin:0 auto;}
+.box-tr{position:relative; width:1000px; height:300px; background-color:white; text-align: center; display: inline-block; margin:0 auto; }
+.box-td{position:relative; width:240px;  height:300px; background-color:white; text-align: center; display: inline-block; margin:0 auto;}
+.imggg{position:relative; width:240px; height:200px;  background-color:white; text-align: center; display: inline-block; margin:0 auto;}
+.price1{position:relative; width:240px; height:100px;  background-color:white; text-align: center; display: inline-block; margin:0 auto;}
 
 
 
