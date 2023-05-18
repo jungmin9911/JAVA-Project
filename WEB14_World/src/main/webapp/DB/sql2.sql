@@ -2,7 +2,7 @@
 insert into Lworker values('admin','1234', '관리자', '010-7777-7777');
 insert into Lworker values('scott','1234', '홍길동', '010-6400-6080');
 
-sdad
+sdadsasa
 -- 회원입력 
 insert into Lmember(id, pwd, name, zip_num, address1, address2, phone, email) values
 ('one', '1234', '김나리', '133-110', '서울시 성동구 성수동1가' , '1번지21호', '017-777-7777','acc@abc.com');
