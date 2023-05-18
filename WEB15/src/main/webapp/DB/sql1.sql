@@ -60,7 +60,7 @@ CREATE TABLE Laddress
 	zip_code varchar2(30),
 	bunji varchar2(30)
 );
-
+alter table Laddress add dong varchar2(100);
 
 CREATE TABLE Lattraction
 (
@@ -79,9 +79,11 @@ CREATE TABLE Lattraction
 ALTER TABLE Lattraction
 ADD image VARCHAR2(255);
 
+--아이와 함께하는 놀이기구 보기위한 컬럼
 ALTER TABLE Lattraction
 ADD useyn char(1) DEFAULT 'Y';
 
+-- 베스트 놀이기구 컬럼
 ALTER TABLE Lattraction
 ADD bestyn char(1) DEFAULT 'Y';
 
@@ -133,6 +135,8 @@ CREATE TABLE Lorders
 	PRIMARY KEY (oseq)
 );
 
+-- 놀이동산 이용날짜
+alter table Lorders add usedate date DEFAULT null;
 
 CREATE TABLE Lorder_datail
 (
