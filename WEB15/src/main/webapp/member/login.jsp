@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 <style type="text/css">
 
-
 #logina{position: relative; width:1180px; height:800px; margin: 0 auto; text-align: center;}
 #login {position: relative; width:100%; height:250px; margin: 0 auto; line-height: 160px; text-align: center; font-size:200%}
 #input{ position: relative;width:600px; height:70px; color:gray; border:1px solid silver; 
