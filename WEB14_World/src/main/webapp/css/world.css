@@ -20,12 +20,22 @@ nav#top_menu ul li:hover {color: blue; font-weight: bold;}
 .selected{background: black; color:white; border:1px solid white; }
 
 
-#mainback{position:relative; width:100%; height:1000px; background-color:lightgray;}
-#maintitle{position:relative; width:100%; height:200px; top:100px; text-align:center; font-size:50px; border: 1px solid green;}
-.tag{width:100%; height:54px; text-align:center;}
-.tag ul{width:740px; height:54px; margin:0 auto; list-style:none; text-align:center;}
-.tag ul li{width:200px; height:50px; border-radius:40px 40px 40px 40px; border:1px solid gray; float:left;
+#mainback{position:relative; width:100%; height:1800px; background-color:lightgray;}
+#maintitle{position:relative; width:100%; height:180px; font-size:50px; display:flex; justify-content:center; align-items:flex-end;}
+.tag{width:100%; height:140px; display:flex; justify-content:center; align-items:center;}
+.tag ul{width:720px; height:54px; margin:0 auto; list-style:none; display:flex; justify-content:center; align-items:center; text-align:center;}
+.tag ul li{width:180px; height:50px; border-radius:40px 40px 40px 40px; border:1px solid gray; float:left;
 	margin-right:40px; font-size:20px; line-height:50px;}
+	
+#mainimg{position:absolute; width:100%; height:800px; border:1px solid blue; text-align:center;}
+.img{position:relative; width:1000px; height:380px; border:1px solid red; margin:0 auto;}
+.img ul{}
+
+#arg{position:}
+
+
+
+
 
 
 
