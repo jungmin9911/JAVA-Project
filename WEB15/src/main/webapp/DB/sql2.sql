@@ -12,16 +12,23 @@ insert into Lmember(id, pwd, name, zip_num, address1, address2, phone, email)val
 select*from Lworker;
 select*from Lmember;
 
+
+
+
+
+
+
+
 -----베스트 놀이기구
-create or replace view best_pro_view
+create or replace view best_at_view
 as
 select * from
 (select rownum, pseq, name, price2, image from product  where bestyn='Y'  order by indate desc) 
 where  rownum <=4;
 
 
------새로운 놀이기구
-create or replace view new_pro_view
+----아이 놀이기구
+create or replace view ch_at_view
 as
 select*from
 (select rownum, pseq, name, price2, image from product  where useyn='Y'  order by indate desc )
