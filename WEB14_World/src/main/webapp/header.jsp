@@ -12,7 +12,10 @@
 
 <link href="script/script.js" rel="stylesheet">
 <link href="css/world.css" rel="stylesheet">  
+<style type="text/css">
 
+
+</style>
 </head>
 <body>
 <div id="wrap">
