@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<% response.sendRedirect("world.do?command=index"); %>
-
+테스트입니다
+테스트입니다
+테스트입니다
+테스트입니다12343
 </body>
-
 </html>
